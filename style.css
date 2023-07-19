@@ -1,0 +1,497 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+/* nav-ber starts here */
+nav{
+   /* margin:0 30px; */
+   background-color: rgb(197, 174, 216);
+}
+.gamer-section{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+.gamer-logo{
+    display: flex;
+    gap:3px;
+    justify-content: left;
+    align-items: center;
+    margin-left:25px;
+}
+.gamer-logo img{
+    height:30px;
+    width:50px;
+    margin:3px;
+}
+.gamer-logo h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    font-style: normal;
+}
+.gamer{
+    color:red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    font-style: normal;
+}
+.gamer-menu{
+    display:flex;
+    justify-content: space-evenly;
+
+}
+.gamer-menu li{
+    list-style: none;
+     margin-right: 25px;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-size: 20px;
+     font-weight: 100;
+     font-style: normal;
+
+
+}
+.gamer-menu li:hover{
+    color:red;
+    cursor: pointer;
+}
+/* nav-ber ends here */
+
+/* banner-section starts here */
+main{
+    margin:2px 0px;
+}
+.banner-section{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(117, 150, 168);
+}
+    
+
+
+ .banner-text{
+    text-align: center;
+    margin:70px auto;
+    height:75px;
+    
+
+} 
+.banner-text h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    font-style: normal;
+
+}
+.banner-text .click{
+display: flex;
+flex-direction: row-reverse;
+}
+.banner-text .download{
+    display: flex;
+    flex-direction: row-reverse;
+ }
+.banner-text .online-games{
+        display: flex;
+        flex-direction: row-reverse;
+}
+.banner-text h1{
+    color:rgb(155, 81, 139)
+}
+.niche{
+    margin-bottom: 5px;
+}
+.btn{
+    margin-top:10px;
+    padding:10px;
+    background-color: crimson;
+    border-radius: 5px;
+    color:white;
+
+}
+.btn :hover{
+    color:green;
+    cursor:pointer;
+}
+.banner-img{
+    height:450px;
+    width:450px;
+}
+
+/* funny section */
+.funny-flex-container{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+}
+.card{
+    height:250px;
+    width:250px;
+    text-align: center;
+    margin:0 auto;
+}
+.funny-text{
+    text-align:center;
+    margin:0px auto;
+}
+.funny-text h2{
+    margin-bottom: 4px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    font-style: normal;
+
+}
+.funny-text h2 .funny-videos{
+    color:rgb(55, 139, 139);
+}
+.funny-text p{
+    margin-bottom: 13px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+/* cow-boy-section */
+
+.cow-boy-section{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 350px;
+}
+.cw-heading{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 43px;
+    font-weight: 700;
+    font-style: normal;
+    color:red;
+
+}
+.download{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    font-style: normal;
+    color:black;
+
+}
+.install{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    font-style: normal;
+    color:black;
+    margin-bottom: 15px;
+
+}
+.para{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    font-style: normal;
+    color:black;
+ 
+
+
+}
+.cow-boy-image{
+    position:relative;
+    /* border:2px solid red; */
+    border-radius: 7px;
+}
+.absolute{
+    position:absolute;
+    bottom:-20px;
+    left: -40px;
+    border-radius: 5px;
+
+}
+
+
+/* icon container */
+.icon-section{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    margin:0px 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    display:flex;
+    height:60px;
+    width:130px;
+    /* border:2px solid red; */
+    gap:2px;
+    background-color: bisque;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    
+    
+}
+.icon:hover{
+    color:red;
+    border:2px solid red;
+
+}
+.icon img{
+    height:35px;
+    width:50px
+}
+.icon .font{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    font-style: normal;
+    color:black;
+}
+/* .icon .icon-extra{
+    width:350px;
+} */
+
+
+/* footer-section */
+.footer{
+    border-color: bisque;
+    height:300px;
+    /* border:4px solid red; */
+    background-color: black;
+}
+
+
+
+
+
+
+.footer-container{
+    margin:auto auto;
+    width: 70%;
+    height: 60%;
+    padding: 10px;
+    border:2px solid green; */
+  /* border: 5px solid;
+  margin:300px auto;
+  width: 50%;
+  
+  padding: 10px; */ */
+
+}
+.gamer-logo{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin-bottom:15px;
+    /* border: 2px solid pink; */
+}
+.footer-menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: black;
+    /* border:2px solid yellow; */
+    margin-top:3px;
+
+
+}
+.footer-menu li{
+    list-style: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    font-style: normal;
+    color:white;
+
+}
+.footer-icon{
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top:4px;
+    margin-right:100px;
+    margin-bottom: 10px;
+}
+.condition {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:10px;
+
+}
+.condition li{
+    list-style: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    font-style: normal;
+    color:white;
+
+}
+.footer-copyright{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px
+
+
+}
+.footer-copyright{
+    list-style: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    font-style: normal;
+    color:white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .gamer-section{
+        display: flex;
+        flex-direction: column;
+        
+  }
+  .gamer-logo{
+    display: flex;
+    flex-direction: column;
+    margin-right:42px;
+    /* justify-content: center;
+    align-items: center; */
+   
+  }
+  .gamer-logo img{
+    display: flex;
+    flex-direction: column;
+    margin-right:0px;
+
+  }
+  .gamer-menu{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+
+
+
+}
+    .banner-section{
+        display: flex;
+        flex-direction: column;
+        gap:70px;
+        
+    }
+    .funny-flex-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .cow-boy-section{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+
+    }
+    .cow-boy-image{
+        display: flex;
+        height:350px;
+        width:350px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .icon-section{
+        display:flex;
+        flex-wrap:wrap;
+        margin-top:120px;
+    }
+    .footer-menu{
+        display: flex;
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+        margin-bottom: 10px;
+    }
+    .footer-icon{
+        flex-direction: row;
+    }
+    .condition{
+        display:flex;
+        flex-wrap: wrap;
+        margin-right: 5px;
+    }
+    
+}
