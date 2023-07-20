@@ -109,7 +109,7 @@ flex-direction: row-reverse;
     background-color: crimson;
     border-radius: 5px;
     color:white;
-
+    
 }
 .btn :hover{
     color:green;
@@ -118,6 +118,11 @@ flex-direction: row-reverse;
 .banner-img{
     height:450px;
     width:450px;
+}
+.banner-text h1{
+    background:linear-gradient(
+        to bottom,blue,lightblue
+    );
 }
 
 /* funny section */
@@ -155,6 +160,9 @@ flex-direction: row-reverse;
     font-size: 15px;
     font-weight: 100;
     font-style: normal;
+}
+.card #gradiant-section{
+    background-image:linear linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url('images/Rectangle 7.png');
 }
 
 
@@ -299,6 +307,8 @@ flex-direction: row-reverse;
     color: black;
     /* border:2px solid yellow; */
     margin-top:3px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
 
 
 }
@@ -317,13 +327,15 @@ flex-direction: row-reverse;
     align-items: center;
     margin-top:4px;
     margin-right:100px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
 }
 .condition {
     display:flex;
     justify-content: space-around;
     align-items: center;
-    margin-top:10px;
+    margin-bottom:15px;
+    flex-wrap: wrap;
 
 }
 .condition li{
@@ -339,7 +351,8 @@ flex-direction: row-reverse;
     display:flex;
     justify-content: center;
     align-items: center;
-    margin-top:10px
+    margin-top:10px;
+    margin-bottom: 30px;
 
 
 }
@@ -492,6 +505,16 @@ flex-direction: row-reverse;
         display:flex;
         flex-wrap: wrap;
         margin-right: 5px;
+    }
+    .cow-boy-text{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .condition li{
+        margin-right: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
     }
     
 }
