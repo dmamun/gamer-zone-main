@@ -160,9 +160,11 @@ flex-direction: row-reverse;
     font-size: 15px;
     font-weight: 100;
     font-style: normal;
+    background-image:linear-gradient(blue,salmon);
 }
-.card #gradiant-section{
-    background-image:linear linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url('images/Rectangle 7.png');
+#gradiant-section{
+    background-image:linear-gradient(blue,salmon),url('images/Rectangle 7.png');
+    background-size: cover;
 }
 
 
@@ -469,6 +471,13 @@ flex-direction: row-reverse;
         gap:70px;
         
     }
+    .banner-img{
+        height:250px;
+        width: 370px;margin-bottom: 100px;
+        overflow: hidden;
+        text-align: center;
+        margin: 0 auto;
+    }
     .funny-flex-container{
         display: flex;
         flex-direction: column;
@@ -601,6 +610,13 @@ flex-direction: row-reverse;
     .card img{
         height:170px;
         width:220px;
+    }
+    .banner-img{
+        height:300px;
+        width: 450px;margin-bottom: 100px;
+        overflow: hidden;
+        text-align: center;
+        margin: 0 auto;
     }
     
 } 
